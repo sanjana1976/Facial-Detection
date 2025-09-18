@@ -1,23 +1,25 @@
-Facial-Detection
+Digital Image Classification and Algorithmic Bias Mitigation   
 
-Project Overview       
-This project is a deep learning-based music generator that uses a Gated Recurrent Unit (GRU) model to compose original music. Trained on a diverse dataset of traditional folk songs in ABC notation, the model learns to understand musical structure and patterns to generate new, coherent pieces. This work demonstrates a strong understanding of sequential model architectures, data preprocessing for symbolic music, and modern MLOps practices.
+Project Summary      
+
+ 
+This project addresses two core aspects of computer vision: a foundational image classification task using the MNIST dataset and an advanced application focused on mitigating algorithmic bias in a detection system. 
+
 
 Key Features     
-Sequential Model: A PyTorch-based GRU model is built from scratch to handle the complexities of music as a sequential data type.
 
-Data Processing Pipeline: The project includes a custom ABC_Processor to handle the conversion of text-based ABC notation into a numerical format suitable for deep learning. This includes building a vocabulary and mapping characters to indices.
+Image Classification: A convolutional neural network (CNN) is developed and trained to accurately classify handwritten digits, showcasing proficiency in standard deep learning and image recognition techniques.
 
-Generative Capabilities: The trained model can generate new music, showcasing its ability to compose novel sequences that follow the learned patterns of the training data.
+Bias Mitigation: The project includes a dedicated component to analyze and debias a detection system. It explores methods to address fairness concerns, demonstrating knowledge of advanced ethical considerations in machine learning.
 
-Reproducible Research: Comet ML is integrated to track and log experiments. This allows for clear visualization of training metrics like loss and accuracy, as well as versioning of datasets and models.
+Reproducible Research: Comet ML is used for comprehensive experiment tracking, logging, and visualization. This practice ensures reproducibility and provides a clear record of model performance and fairness metrics.
 
-Technical Stack     
+Technical Stack    
+
 Programming Language: Python
 
 Deep Learning Framework: PyTorch
 
 Experiment Tracking: Comet ML
 
-Libraries: mitdeeplearning, scipy
-
+Datasets: MNIST dataset, and a preprocessed dataset used for bias analysis.
