@@ -1,9 +1,9 @@
 Facial-Detection
 
-Project Overview    
+Project Overview       
 This project is a deep learning-based music generator that uses a Gated Recurrent Unit (GRU) model to compose original music. Trained on a diverse dataset of traditional folk songs in ABC notation, the model learns to understand musical structure and patterns to generate new, coherent pieces. This work demonstrates a strong understanding of sequential model architectures, data preprocessing for symbolic music, and modern MLOps practices.
 
-Key Features  
+Key Features     
 Sequential Model: A PyTorch-based GRU model is built from scratch to handle the complexities of music as a sequential data type.
 
 Data Processing Pipeline: The project includes a custom ABC_Processor to handle the conversion of text-based ABC notation into a numerical format suitable for deep learning. This includes building a vocabulary and mapping characters to indices.
@@ -12,7 +12,7 @@ Generative Capabilities: The trained model can generate new music, showcasing it
 
 Reproducible Research: Comet ML is integrated to track and log experiments. This allows for clear visualization of training metrics like loss and accuracy, as well as versioning of datasets and models.
 
-Technical Stack  
+Technical Stack     
 Programming Language: Python
 
 Deep Learning Framework: PyTorch
